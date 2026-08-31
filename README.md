@@ -78,15 +78,17 @@
 
 ## GitHub Stats
 
-<!-- 语言统计卡片：由 .github/workflows/cards.yml 生成为静态 SVG，不依赖 vercel -->
+
+<!-- 贡献活动图：由 .github/workflows/snake.yml 生成到 output 分支，不依赖 vercel -->
 <p align="left">
+  <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/activity-graph.svg" width="100%" alt="Activity Graph" />
+</p>
+
+<!-- 语言统计卡片：由 .github/workflows/cards.yml 生成为静态 SVG，不依赖 vercel -->
+<p align="right">
   <img src="./profile/top-langs.svg" alt="Top Languages" />
 </p>
 
-<!-- 贡献活动图：由 .github/workflows/snake.yml 生成到 output 分支，不依赖 vercel -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/activity-graph.svg" width="100%" alt="Activity Graph" />
-</p>
 
 <!-- 贡献蛇形图：由 .github/workflows/snake.yml 生成到 output 分支 -->
 <p align="center">
