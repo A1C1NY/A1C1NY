@@ -87,12 +87,8 @@
 <!-- 统计卡片：由 .github/workflows/cards.yml 生成为静态 SVG，不依赖 vercel -->
 <div align="left">
   <img src="./profile/stats.svg" alt="GitHub Stats" />
-</div>
-
-<!-- 语言统计卡片：由 .github/workflows/cards.yml 生成为静态 SVG，不依赖 vercel -->
-<p align="right">
   <img src="./profile/top-langs.svg" alt="Top Languages" />
-</p>
+</div>
 
 
 <!-- 贡献蛇形图：由 .github/workflows/snake.yml 生成到 output 分支 -->
