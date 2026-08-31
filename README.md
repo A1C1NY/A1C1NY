@@ -12,7 +12,6 @@
 
 </div>
 
----
 
 ##  About Me
 ### 最近在做的方向
@@ -25,13 +24,38 @@
 2. **全栈开发**（其实是大作业/创新项目结题成果）
 3. **mySQL + alembic**（基于高德 API 的公交/地铁线路查询系统 `CityTrans`） 
 
+
+## GitHub Stats
+
+
+<!-- 贡献活动图：由 .github/workflows/snake.yml 生成到 output 分支，不依赖 vercel -->
+<p align="left">
+  <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/activity-graph.svg" width="100%" alt="Activity Graph" />
+</p>
+
+<!-- 统计卡片：由 .github/workflows/cards.yml 生成为静态 SVG，不依赖 vercel -->
+<div align="left">
+  <img src="./profile/stats.svg" alt="GitHub Stats" />
+  <img src="./profile/top-langs.svg" alt="Top Languages" />
+</div>
+
+
+<!-- 贡献蛇形图：由 .github/workflows/snake.yml 生成到 output 分支 -->
+<!-- <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
+  </picture>
+</p> -->
+
+
 ## Tech Stack
 <!-- shields.io 徽章 -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
----
+
 
 ## Featured Projects
 
@@ -74,32 +98,8 @@
   </tr>
 </table>
 
----
-
-## GitHub Stats
 
 
-<!-- 贡献活动图：由 .github/workflows/snake.yml 生成到 output 分支，不依赖 vercel -->
-<p align="left">
-  <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/activity-graph.svg" width="100%" alt="Activity Graph" />
-</p>
-
-<!-- 统计卡片：由 .github/workflows/cards.yml 生成为静态 SVG，不依赖 vercel -->
-<div align="left">
-  <img src="./profile/stats.svg" alt="GitHub Stats" />
-  <img src="./profile/top-langs.svg" alt="Top Languages" />
-</div>
-
-
-<!-- 贡献蛇形图：由 .github/workflows/snake.yml 生成到 output 分支 -->
-<!-- <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
-  </picture>
-</p> -->
-
----
 
 ##  Connect with Me
 
