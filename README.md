@@ -84,8 +84,8 @@
   <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/activity-graph.svg" width="100%" alt="Activity Graph" />
 </p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Cwd295645351&show_icons=true&theme=transparent" /> 
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=A1C1NY&show_icons=true&theme=transparent" /> 
 </div>
 
 <!-- 语言统计卡片：由 .github/workflows/cards.yml 生成为静态 SVG，不依赖 vercel -->
