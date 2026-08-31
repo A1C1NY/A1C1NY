@@ -78,6 +78,19 @@
 
 ## GitHub Stats
 
+<!-- 语言统计卡片：由 .github/workflows/cards.yml 生成为静态 SVG，不依赖 vercel -->
+<p align="center">
+  <img src="./profile/top-langs.svg" alt="Top Languages" />
+</p>
+
+<!--
+  贡献活动图：github-readme-activity-graph 没有 GitHub Actions 方案，只能自建 Vercel 实例。
+  自建完成后把下面这行的域名换成你自己的，并取消注释：
+  <p align="center">
+    <img src="https://<你的实例>.vercel.app/graph?username=A1C1NY&theme=tokyo-night&bg_color=transparent&hide_border=true" width="100%" alt="Activity Graph" />
+  </p>
+-->
+
 <!-- 贡献蛇形图：由 .github/workflows/snake.yml 生成到 output 分支 -->
 <p align="center">
   <picture>
