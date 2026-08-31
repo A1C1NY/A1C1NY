@@ -92,12 +92,12 @@
 
 
 <!-- 贡献蛇形图：由 .github/workflows/snake.yml 生成到 output 分支 -->
-<p align="center">
+<!-- <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/github-contribution-grid-snake-dark.svg" />
     <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
   </picture>
-</p>
+</p> -->
 
 ---
 
