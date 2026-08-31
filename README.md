@@ -42,6 +42,7 @@
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=A1C1NY&repo=tooth_VLM_APP&theme=tokyonight" alt="tooth_VLM_APP" />
       </a><br/>
       口腔健康检测应用 · DINOv3 + LLM 对话 + 知识库
+    </td>
     <td align="center">
       <a href="https://github.com/A1C1NY/dinoV3_ToothVLM">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=A1C1NY&repo=dinoV3_ToothVLM&theme=tokyonight" alt="dinoV3_ToothVLM" />
