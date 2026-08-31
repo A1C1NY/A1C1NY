@@ -15,7 +15,7 @@
 ---
 
 ##  About Me
-### 最近在做的方向：
+### 最近在做的方向
 1.  **计算机视觉**: 口腔健康检测（DINOv3 + YOLOv10 / Faster-RCNN）
 2.  **大模型**: 口腔健康Agent（LLM/VLM）
 3.  **AI的医学领域应用**：口腔多模态数据配准（CBCT-IOS）
@@ -30,38 +30,46 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+
 ---
 
 ## Featured Projects
 
-<!-- github-readme-stats 仓库卡片 -->
 <table>
   <tr>
-    <td align="center">
-      <a href="https://github.com/A1C1NY/tooth_VLM_APP">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=A1C1NY&repo=tooth_VLM_APP&theme=tokyonight" alt="tooth_VLM_APP" />
-      </a><br/>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/A1C1NY/tooth_VLM_APP">tooth_VLM_APP</a></h3>
       口腔健康检测应用 · DINOv3 + LLM 对话 + 知识库
+      <br/><br/>
+      <a href="https://github.com/A1C1NY/tooth_VLM_APP/stargazers"><img src="https://img.shields.io/github/stars/A1C1NY/tooth_VLM_APP?style=flat-square&color=1f6feb&labelColor=161b22&logo=github" alt="stars" /></a>
+      <img src="https://img.shields.io/github/languages/top/A1C1NY/tooth_VLM_APP?style=flat-square&color=3776AB&labelColor=161b22" alt="top language" />
+      <img src="https://img.shields.io/github/last-commit/A1C1NY/tooth_VLM_APP?style=flat-square&color=2ea043&labelColor=161b22" alt="last commit" />
     </td>
-    <td align="center">
-      <a href="https://github.com/A1C1NY/dinoV3_ToothVLM">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=A1C1NY&repo=dinoV3_ToothVLM&theme=tokyonight" alt="dinoV3_ToothVLM" />
-      </a><br/>
-      dinoV3 + YOLOv10 / Faster-RCNN 训练代码
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/A1C1NY/dinoV3_ToothVLM">dinoV3_ToothVLM</a></h3>
+      DINOv3 + YOLOv10 / Faster-RCNN 训练代码
+      <br/><br/>
+      <a href="https://github.com/A1C1NY/dinoV3_ToothVLM/stargazers"><img src="https://img.shields.io/github/stars/A1C1NY/dinoV3_ToothVLM?style=flat-square&color=1f6feb&labelColor=161b22&logo=github" alt="stars" /></a>
+      <img src="https://img.shields.io/github/languages/top/A1C1NY/dinoV3_ToothVLM?style=flat-square&color=3776AB&labelColor=161b22" alt="top language" />
+      <img src="https://img.shields.io/github/last-commit/A1C1NY/dinoV3_ToothVLM?style=flat-square&color=2ea043&labelColor=161b22" alt="last commit" />
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <a href="https://github.com/A1C1NY/CityTrans">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=A1C1NY&repo=CityTrans&theme=tokyonight" alt="CityTrans" />
-      </a><br/>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/A1C1NY/CityTrans">CityTrans</a></h3>
       公交/地铁线路查询系统 · 高德 API
+      <br/><br/>
+      <a href="https://github.com/A1C1NY/CityTrans/stargazers"><img src="https://img.shields.io/github/stars/A1C1NY/CityTrans?style=flat-square&color=1f6feb&labelColor=161b22&logo=github" alt="stars" /></a>
+      <img src="https://img.shields.io/github/languages/top/A1C1NY/CityTrans?style=flat-square&color=3776AB&labelColor=161b22" alt="top language" />
+      <img src="https://img.shields.io/github/last-commit/A1C1NY/CityTrans?style=flat-square&color=2ea043&labelColor=161b22" alt="last commit" />
     </td>
-    <td align="center">
-      <a href="https://github.com/A1C1NY/Topology-Static-Ver">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=A1C1NY&repo=Topology-Static-Ver&theme=tokyonight" alt="Topology-Static-Ver" />
-      </a><br/>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/A1C1NY/Topology-Static-Ver">Topology-Static-Ver</a></h3>
       一个简单的图形生成器 · C++ / SFML
+      <br/><br/>
+      <a href="https://github.com/A1C1NY/Topology-Static-Ver/stargazers"><img src="https://img.shields.io/github/stars/A1C1NY/Topology-Static-Ver?style=flat-square&color=1f6feb&labelColor=161b22&logo=github" alt="stars" /></a>
+      <img src="https://img.shields.io/github/languages/top/A1C1NY/Topology-Static-Ver?style=flat-square&color=00599C&labelColor=161b22" alt="top language" />
+      <img src="https://img.shields.io/github/last-commit/A1C1NY/Topology-Static-Ver?style=flat-square&color=2ea043&labelColor=161b22" alt="last commit" />
     </td>
   </tr>
 </table>
@@ -70,19 +78,12 @@
 
 ## GitHub Stats
 
-<!-- github-readme-stats 统计卡片 -->
+<!-- 贡献蛇形图：由 .github/workflows/snake.yml 生成到 output 分支 -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=A1C1NY&layout=compact&langs_count=8&theme=tokyonight" alt="Top Languages" />
-</p>
-
-<!-- 贡献活动图（github-readme-activity-graph） -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=A1C1NY&theme=tokyo-night&bg_color=transparent&hide_border=true" width="100%" alt="Activity Graph" />
-</p>
-
-<!-- 贡献蛇形图：需要配置 GitHub Action（platane/snk）后才会显示 -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
+  </picture>
 </p>
 
 ---
