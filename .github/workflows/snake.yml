@@ -14,6 +14,10 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      # 活动图 action 的 pnpm 缓存 key 用 hashFiles('**/pnpm-lock.yaml')，
+      # 按工作区解析；不 checkout 工作区为空会导致该步骤失败
+      - uses: actions/checkout@v6
+
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
@@ -23,6 +27,9 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Generate activity graph
+        id: activity
+        # 先不让它中断 job，好让下面的诊断步骤把失败原因打出来
+        continue-on-error: true
         # v1 tag 缺少 pnpm 缓存路径修复（见 issue #1），钉到修复后的 commit
         uses: maurodesouza/github-readme-activity-graph-action@9b38b03cac7ffb9f093a82f0ea9c634d5df62297
         with:
@@ -31,11 +38,22 @@ jobs:
           output_path: dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 活动图抓取失败时会写出约 630B 的兜底图并正常退出，这里拦住它
+      # 无论成败都跑，把实际状态打进日志
+      - name: Report activity graph outcome
+        if: always()
+        run: |
+          echo "activity step outcome: ${{ steps.activity.outcome }}"
+          echo "--- dist/ contents ---"
+          ls -la dist/ 2>&1 || echo "(no dist/ directory)"
+          if [ -f dist/activity-graph.svg ]; then
+            echo "--- activity-graph.svg (first 400 chars) ---"
+            head -c 400 dist/activity-graph.svg; echo
+          fi
+
+      # 蛇形图必须存在且够大；活动图缺失时只警告，不阻断发布
       - name: Verify generated files
         run: |
-          for f in dist/activity-graph.svg \
-                   dist/github-contribution-grid-snake.svg \
+          for f in dist/github-contribution-grid-snake.svg \
                    dist/github-contribution-grid-snake-dark.svg; do
             if [ ! -f "$f" ]; then
               echo "::error::missing $f"; exit 1
@@ -47,6 +65,17 @@ jobs:
             fi
             echo "ok: $f (${size}B)"
           done
+          if [ -f dist/activity-graph.svg ]; then
+            size=$(wc -c < dist/activity-graph.svg)
+            if [ "$size" -lt 2000 ]; then
+              echo "::warning::activity-graph.svg is only ${size}B — dropping it"
+              rm dist/activity-graph.svg
+            else
+              echo "ok: dist/activity-graph.svg (${size}B)"
+            fi
+          else
+            echo "::warning::activity-graph.svg was not generated"
+          fi
 
       - name: Publish generated files
         uses: peaceiris/actions-gh-pages@v4
