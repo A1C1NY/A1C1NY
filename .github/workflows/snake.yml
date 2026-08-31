@@ -23,12 +23,30 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Generate activity graph
-        uses: maurodesouza/github-readme-activity-graph-action@v1
+        # v1 tag 缺少 pnpm 缓存路径修复（见 issue #1），钉到修复后的 commit
+        uses: maurodesouza/github-readme-activity-graph-action@9b38b03cac7ffb9f093a82f0ea9c634d5df62297
         with:
           username: ${{ github.repository_owner }}
           options: theme=github-dark&bg_color=00000000&hide_border=true&area=true
           output_path: dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 活动图抓取失败时会写出约 630B 的兜底图并正常退出，这里拦住它
+      - name: Verify generated files
+        run: |
+          for f in dist/activity-graph.svg \
+                   dist/github-contribution-grid-snake.svg \
+                   dist/github-contribution-grid-snake-dark.svg; do
+            if [ ! -f "$f" ]; then
+              echo "::error::missing $f"; exit 1
+            fi
+            size=$(wc -c < "$f")
+            if [ "$size" -lt 2000 ]; then
+              echo "::error::$f is only ${size}B — likely an error placeholder"
+              cat "$f"; exit 1
+            fi
+            echo "ok: $f (${size}B)"
+          done
 
       - name: Publish generated files
         uses: peaceiris/actions-gh-pages@v4
