@@ -2,7 +2,7 @@
 
 # Hi, I'm A1C0NY
 
-**Yi Long · Tongji University, Shanghai, China**
+**Yi Long · Tongji University, Shanghai, China** 
 
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=500&lines=Welcome to the homepage of A1CONY!;Python+%26+C%2B%2B+Developer" alt="Typing SVG" />
