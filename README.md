@@ -7,6 +7,10 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;pause=1000&amp;center=true&amp;vCenter=true&amp;width=500&amp;lines=Welcome+to+the+homepage+of+A1CONY%21%3BPython+%26+C%2B%2B+Developer" alt="Typing SVG" />
 
+</div>
+
+<div align="middle">
+
 <!-- 访客计数器 -->
 <img src="https://api.visitorbadge.io/api/visitors?path=A1C1NY.A1C1NY&label=Visitors&countColor=%23263759" />
 
