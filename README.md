@@ -5,7 +5,7 @@
 **Yi Long · Tongji University, Shanghai, China**
 
 
-<!-- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=500&lines=1145141919810;Python+%26+C%2B%2B+Developer;Open+Source+Enthusiast" alt="Typing SVG" /> -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=500&lines=Welcome to the homepage of A1CONY!;Python+%26+C%2B%2B+Developer" alt="Typing SVG" />
 
 <!-- 访客计数器 -->
 <img src="https://api.visitorbadge.io/api/visitors?path=A1C1NY.A1C1NY&label=Visitors&countColor=%23263759" />
@@ -15,26 +15,28 @@
 
 ##  About Me
 ### 最近在做的方向
-1.  **计算机视觉**: 口腔健康检测（DINOv3 + YOLOv10 / Faster-RCNN）
-2.  **大模型**: 口腔健康Agent（LLM/VLM）
-3.  **AI的医学领域应用**：口腔多模态数据配准（CBCT-IOS）
+1.   **AI的医学领域应用**：口腔多模态数据配准（CBCT-IOS配准）
+2.   **LLM/VLM**: 模型压缩和量化
    
 ### 正在学习
 1. **多模态大模型（VLM）和语言大模型（LLM）**，以及与之相关的各种技能（微调，RAG，压缩......）
-2. **全栈开发**（其实是大作业/创新项目结题成果）
-3. **mySQL + alembic**（基于高德 API 的公交/地铁线路查询系统 `CityTrans`） 
+2. **mySQL + alembic**（基于高德 API 的公交/地铁线路查询系统 `CityTrans`） 
+
+### 做过
+1. **计算机视觉**: 口腔健康检测（DINOv3 + YOLOv10 / Faster-RCNN的视觉模型训练和微调）
+2.  **大模型**: 口腔健康Agent（LLM/VLM，RAG知识库检索）
 
 
 ## GitHub Stats
 
 
 <!-- 贡献活动图：由 .github/workflows/snake.yml 生成到 output 分支，不依赖 vercel -->
-<p align="left">
+<p align="middle">
   <img src="https://raw.githubusercontent.com/A1C1NY/A1C1NY/output/activity-graph.svg" width="100%" alt="Activity Graph" />
 </p>
 
 <!-- 统计卡片：由 .github/workflows/cards.yml 生成为静态 SVG，不依赖 vercel -->
-<div align="left">
+<div align="middle">
   <img src="./profile/stats.svg" alt="GitHub Stats" />
   <img src="./profile/top-langs.svg" alt="Top Languages" />
 </div>
@@ -51,9 +53,11 @@
 
 ## Tech Stack
 <!-- shields.io 徽章 -->
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+<p align="middle">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+</p>
 
 
 
